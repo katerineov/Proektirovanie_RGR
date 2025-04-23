@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #6a5acd;
+}
+
+#network {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a4eae;
+}
